@@ -1,6 +1,8 @@
 set(LIB_NAME QtScintillaAdapter)
 
 set(LIB_SOURCES
+    src/qtscintillaadapter/scintillaedit.cpp
+    src/qtscintillaadapter/scintillaedit.h
     src/scintilla/include/ILexer.h
     src/scintilla/include/Scintilla.h
     src/scintilla/qt/ScintillaEditBase/PlatQt.cpp
