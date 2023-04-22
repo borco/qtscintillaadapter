@@ -98,3 +98,7 @@ target_include_directories(${LIB_NAME} PUBLIC
     src/scintilla/qt/ScintillaEditBase
     src/scintilla/src
 )
+
+set_source_files_properties(src/scintilla/qt/ScintillaEditBase/ScintillaEditBase.cpp PROPERTIES COMPILE_FLAGS -w)
+set_source_files_properties(src/scintilla/qt/ScintillaEditBase/PlatQt.cpp PROPERTIES COMPILE_FLAGS -w)
+set_source_files_properties(src/scintilla/src/Editor.cxx PROPERTIES COMPILE_FLAGS -w)
